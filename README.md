@@ -68,7 +68,7 @@ Deze klasse dien je verder te implementeren:
 3. Implementeer de mapping;
 4. Voeg ook een DbSet toe;
 5. Run en controleer de database. 
-![Product_Category.png](https://webiii.github.io/docs/H07/fig6.png "Product_Category")
+![Product_Category.png](https://github.com/WebIII/portal/raw/master/docs/H07/fig6.png "Product_Category")
 
 6. Voeg in de Initializer de objecten `Soccer` en `Watersports` toe. He object `Soccer` bevat de eerste 3 `producten`,  de 4 laatste behoren tot het object `Watersports`;
 7. Voeg deze toe aan de database.
@@ -107,7 +107,7 @@ watersports.AddProduct(lifeJacket);
 
 6. Haal eens de rijen in de tabel Product op. De `Discriminator` kolom bevat ofwel de waarde `Product`, ofwel de waarde `OnlineProduct`.
 
-![Product_Rows.png](https://webiii.github.io/docs/H07/fig7.png "Product_Rows")
+![Product_Rows.png](https://github.com/WebIII/portal/raw/master/docs/H07/fig7.png "Product_Rows")
  
 ---
 
